@@ -60,7 +60,7 @@ public class Baekjoon_2751 {
                 index1++;
             }
         }
-        //남은 그룹 정리
+        //남은 그룹 정리 
         while (index1 <= m) {
             A[k] = tmp[index1];
             k++;
