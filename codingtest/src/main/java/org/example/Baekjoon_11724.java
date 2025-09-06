@@ -47,7 +47,7 @@ public class Baekjoon_11724 {
     }
     static void DFS(int i){
         //이미 순회했으면 return
-        if(!visited[i]) return;
+        if(visited[i]) return;
         visited[i] = true;
         //A[i]의 안의 원소를 j에 저장한 다음 A[i]에 j를 저장할 수 없을 때까지(A[i])의 끝까지 순회
         for(int j :A[i]){
